@@ -1,2 +1,2 @@
 # HTML
-This Repo. Contains the HTMl codes.
+This Repo. Contains the HTML codes.
