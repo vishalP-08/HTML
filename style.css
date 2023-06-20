@@ -6,7 +6,7 @@ position: absolute;
 width: 159px;
 height: 72px;
 left: 59px;
-top: 27px;
+top: 0%;
 
 font-family: 'Poppins';
 font-style: normal;
@@ -83,3 +83,69 @@ line-height: 33px;
 
 color: #FFFFFF;
 }
+.a2{
+box-sizing: border-box;
+
+position: absolute;
+width: 1323px;
+height: 588px;
+left: 59px;
+top: 137px;
+
+background: #262626;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 50px;
+}
+.H2{
+    position: absolute;
+    width: 335px;
+    height: 53px;
+    left: 105px;
+    top: 178px;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 72px;
+    
+    color: #FFFFFF;
+    
+}
+.circle{
+    position: absolute;
+    width: 105px;
+    height: 105px;
+    left: 93px;
+    top: 293px;
+    
+    background: #FECB03;
+    border-radius: 100px;
+    }
+    .cart{
+        position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    
+    background: #262626;
+    }
+    
+.p1{
+    position: absolute;
+width: 846px;
+height: 53px;
+left: 224px;
+top: 322px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 32px;
+line-height: 48px;
+
+color: #C4C4C4;
+
+}
+
