@@ -1,0 +1,24 @@
+
+/* Your CSS Code here. */
+.t1{
+    border: 1px solid black;
+    font-family: serif;
+}
+table, th, td {
+  border: 1px solid black;
+	
+}
+.NT2{
+  padding-top: px;
+  padding-bottom: px;
+  padding-left: px;
+  padding-right: px;
+}
+.NT1{
+	padding-top: 100px;
+    padding-bottom: 100px;
+}
+.NT3{
+	padding-top: 30px;
+    padding-bottom: 30px;
+}

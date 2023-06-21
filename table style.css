@@ -1,0 +1,30 @@
+/* your code */
+.ben{
+	background : #3f87a6;
+	border : black;
+	color : white;
+}
+tbody {
+    background-color: #e4f0f5;
+}
+table {
+    border-collapse: collapse;
+    border: 5px solid rgb(200, 200, 200);
+    letter-spacing: 1px;
+    font-family: sans-serif;
+    font-size: 1rem;
+}
+td{
+	padding-left : 30px;
+		border : 10px;
+	border: 1px solid rgb(190, 190, 190);
+}
+th{
+	
+	border: 1px solid rgb(190, 190, 190);
+    padding: 10px;
+    
+}
+tr:nth-child(even) {
+    background-color: #eee;
+}

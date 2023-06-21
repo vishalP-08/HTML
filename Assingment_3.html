@@ -1,0 +1,113 @@
+<html>
+<head>
+    <title>HTML Assignment #3</title>
+<style>
+        /*  your css code here. If applicable */
+.middle{
+    margin: auto;
+    width: 60%;
+}
+table{
+    border: 1px solid black;
+    border-spacing: 1px;
+}
+.center{
+    text-align: center;
+}
+.right{
+    text-align: right;
+}
+td{
+    padding: 1px;
+    border: 1px solid black;
+}
+.green{
+    background-color: green;
+}
+
+.blue{
+    background-color: blue;
+   }
+</style>
+</head>
+
+<body>
+       <!-- This is table - 1 -->
+	<table id = "table-1" class = "middle">
+		<caption><b>HTML Assignment #3</b></caption>
+		<thead>
+			<tr>
+				<td id="t11">left</td>
+				<td class = "center">center</td>
+				<td class = "right" id="t13">right</td>
+			</tr>
+			<tr>
+				<td>left</td>
+				<td class = "center"  id="t12">center</td>
+				<td class = "right">right</td>
+			</tr>
+			<tr>
+				<td>left</td>
+				<td class = "center">center</td>
+				<td class = "right"  id="t13">right</td>
+			</tr>
+		</thead>	
+	</table>
+	<br><br>
+  <!-- This is table-2  -->
+ <table id="table-2" class="middle">
+    <tr>
+      <td id="t21" colspan="6">&nbsp;</td>
+    </tr>
+    <tr>
+       <tr>
+    <td rowspan = "4">&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+	<td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+		   
+  </tr>
+    <tr>
+      <td>&nbsp;</td>
+      <td colspan = "3"; rowspan="2">&nbsp;</td>
+      
+      <td>&nbsp;</td>
+      
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+      <td colspan = "3";>&nbsp;</td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+	</tr>
+	  <tr>
+      <td id="t21" colspan="6">&nbsp;</td>
+    </tr>
+ </table>
+	<br><br>
+	<!-- Third Table -->
+  <table id="table-3" class="middle">
+    <tr class="green">
+	  <td id="t21" colspan="3">&nbsp;</td>
+    </tr>
+	  <tr>
+		  <td>&nbsp;</td>
+      <td id="t-image">
+        <img src="your-image-path.jpg" alt="Your Image">
+		  <td>&nbsp;</td>
+      </td>
+    </tr>
+	  <tr class="blue">
+	  <td id="t21" colspan="3">&nbsp;</td>
+    </tr>
+  </table>
+</body>
+
+</html>

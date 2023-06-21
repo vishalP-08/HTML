@@ -1,0 +1,22 @@
+/*  your css code here. If applicable */
+.blog-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.blog-item {
+    margin: 20px;
+    width: 300px;
+    text-align: center;
+}
+.blog-image {
+    height: 200px;
+    cursor: pointer;
+}
+.blog-heading {
+    cursor: pointer;
+}
+.blog-description {
+    cursor: pointer;
+}
