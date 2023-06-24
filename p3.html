@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Book List</title>
+  <style>
+    table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+    
+    th, td {
+      padding: 8px;
+      text-align: left;
+      border-bottom: 1px solid #ddd;
+    }
+    
+    th:first-child, td:first-child {
+      width: 10%;
+    }
+    
+    th:nth-child(2), td:nth-child(2) {
+      width: 30%;
+    }
+    
+    th:nth-child(3), td:nth-child(3) {
+      width: 30%;
+    }
+    
+    th:nth-child(4), td:nth-child(4) {
+      width: 20%;
+    }
+    
+    th:last-child, td:last-child {
+      width: 10%;
+    }
+    
+    .nested-table {
+      border-collapse: collapse;
+      font-size: 12px;
+      margin-top: 5px;
+    }
+    
+    .nested-table td {
+      padding: 5px;
+    }
+    
+    .nested-table td:first-child {
+      width: 130px;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <h2>Book List</h2>
+  <table>
+    <thead>
+      <tr>
+        <th>Book ID</th>
+        <th>Title</th>
+        <th>Author</th>
+        <th>Genre</th>
+        <th>Availability</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>1</td>
+        <td>
+          <table class="nested-table">
+            <tr>
+              <td><strong>Publication Date:</strong> 2022-01-01</td>
+            </tr>
+            <tr>
+              <td><strong>Page Count:</strong> 250</td>
+            </tr>
+            <tr>
+              <td><strong>ISBN:</strong> 978-1-234567-89-0</td>
+            </tr>
+          </table>
+        </td>
+        <td>Author 1</td>
+        <td>Fiction</td>
+        <td>Available</td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>
+          <table class="nested-table">
+            <tr>
+              <td><strong>Publication Date:</strong> 2023-02-15</td>
+            </tr>
+            <tr>
+              <td><strong>Page Count:</strong> 320</td>
+            </tr>
+            <tr>
+              <td><strong>ISBN:</strong> 978-2-345678-90-1</td>
+            </tr>
+          </table>
+        </td>
+        <td>Author 2</td>
+        <td>Non-fiction</td>
+        <td>Available</td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td>
+          <table class="nested-table">
+            <tr>
+              <td><strong>Publication Date:</strong> 2022-12-10</td>
+            </tr>
+            <tr>
+              <td><strong>Page Count:</strong> 400</td>
+            </tr>
+            <tr>
+              <td><strong>ISBN:</strong> 978-3-456789-01-2</td>
+            </tr>
+          </table>
+        </td>
+        <td>Author 3</td>
+        <td>Mystery</td>
+        <td>Unavailable</td>
+      </tr>
+      <tr>
+        <td>4</td>
+        <td>
+          <table class="nested-table">
+            <tr>
+              <td><strong>Publication Date:</strong> 2023-04-05</td>
+            </tr>
+            <tr>
+              <td><strong>Page Count:</strong> 280</td>
+            </tr>
+            <tr>
+              <td><strong>ISBN:</strong> 978-4-567890-12-3</td>
+            </tr>
+          </table>
+        </td>
+        <td>Author 4</td>
+        <td>Thriller</td>
+        <td>Available</td>
+      </tr>
+      <tr>
+        <td>5</td>
+        <td>
+          <table class="nested-table">
+            <tr>
+              <td><strong>Publication Date:</strong> 2022-09-20</td>
+            </tr>
+            <tr>
+              <td><strong>Page Count:</strong> 200</td>
+            </tr>
+            <tr>
+              <td><strong>ISBN:</strong> 978-5-678901-23-4</td>
+            </tr>
+          </table>
+        </td>
+        <td>Author 5</td>
+        <td>Romance</td>
+        <td>Available</td>
+      </tr>
+    </tbody>
+  </table>
+</body>
+</html>

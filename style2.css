@@ -1,0 +1,159 @@
+/* Sticky Navigation Bar */
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #333;
+    color: #fff;
+    padding: 15px;
+    z-index: 999;
+    font-size: larger;
+  }
+  
+  .navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+  .navbar ul li {
+    display: inline;
+  }
+  
+  .navbar ul li a {
+    color: #fff;
+    padding: 10px;
+    text-decoration: none;
+  }
+  
+  /* Book Table */
+  table {
+    
+    width: 100%;
+    border-style: inset;
+  }
+  
+  th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1.5px solid #ddd;
+  }
+  
+  th:first-child, td:first-child {
+    width: 10%;
+  }
+  
+  th:nth-child(2), td:nth-child(2) {
+    width: 30%;
+  }
+  
+  th:nth-child(3), td:nth-child(3) {
+    width: 30%;
+  }
+  
+  th:nth-child(4), td:nth-child(4) {
+    width: 20%;
+  }
+  
+  th:last-child, td:last-child {
+    width: 10%;
+  }
+  
+  .nested-table {
+    border-collapse: collapse;
+    font-size: 12px;
+    margin-top: 5px;
+  }
+  
+  .nested-table td {
+    padding: 5px;
+  }
+  
+  .nested-table td:first-child {
+    width: 130px;
+    font-weight: bold;
+  }
+  
+  
+  /* Registration Form */
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 60px;
+    background-color: #f5f5f5;
+    border-radius: 5px;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="password"],
+  input[type="number"],
+  input[type="date"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 3px;
+    border: 1px solid #ddd;
+  }
+  
+  input[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #555;
+  }
+  
+  
+  /* Additional Styling */
+  body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    font-size: large;
+  }
+  
+  h2 {
+    margin-bottom: 20px;
+  }
+  
+  .section {
+    background-color: #f5f5f5;
+  }
+  
+  .section:nth-child(odd) {
+    background-color: #fff;
+ 
+  }
+  .topnav-right {
+    float: right;
+    padding-right: 50px;
+  }
+  .topnav a.active {
+    background-color: #04AA6D;
+    color: white;
+  }
+  /* Change the color of links on hover */
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  table1{
+    background: ;
+  }
+  
